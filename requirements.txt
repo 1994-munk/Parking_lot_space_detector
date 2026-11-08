@@ -1,0 +1,8 @@
+# CPU install (small download):
+#   pip install --index-url https://download.pytorch.org/whl/cpu -r requirements.txt
+# CUDA / Apple Silicon: install torch + torchvision from https://pytorch.org/get-started/locally/
+torch>=2.2
+torchvision>=0.17
+pillow>=10.0
+numpy>=1.24
+matplotlib>=3.7
